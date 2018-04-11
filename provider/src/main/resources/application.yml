@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+dubbo:
+  registry:
+    address: localhost:2181
+  protocal:
+    port: 30001
+logging:
+  level:
+    root: INFO
